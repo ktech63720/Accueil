@@ -25,7 +25,7 @@ if (terminalBody) {
     { text: '  antivirus ........... absent', cls: 'line-warn' },
     { text: '  sauvegardes .......... aucune', cls: 'line-warn' },
     { text: '> diagnostic terminé.', cls: 'line-muted' },
-    { text: '> solution trouvée : Jimmy.', cls: 'line-ok' },
+    { text: '> solution trouvée : K-Tech.', cls: 'line-ok' },
   ];
 
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
