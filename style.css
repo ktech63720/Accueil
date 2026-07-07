@@ -434,6 +434,116 @@ footer {
   font-size: 0.85rem;
 }
 
+/* ---------- Tarifs page ---------- */
+
+.tarifs-hero {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 64px 24px 20px;
+}
+
+.pricing-grid {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 20px 24px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.price-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-card.featured {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent), 0 20px 60px rgba(79,227,193,0.08);
+}
+
+.price-card .code {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--amber);
+  background: var(--amber-soft);
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 6px;
+  margin-bottom: 14px;
+  width: fit-content;
+}
+
+.price-card .amount {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+
+.price-card .amount .unit {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.price-card .subtitle {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.price-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  flex-grow: 1;
+}
+
+.price-card li {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--border);
+  padding-left: 22px;
+  position: relative;
+}
+.price-card li:last-child { border-bottom: none; }
+
+.price-card li::before {
+  content: "✓";
+  color: var(--accent);
+  position: absolute;
+  left: 0;
+}
+
+.price-card li.excluded::before {
+  content: "✕";
+  color: var(--text-muted);
+}
+
+.price-note {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 20px 24px 100px;
+}
+
+.price-note .note-box {
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.price-note .note-box strong { color: var(--text); }
+
 /* ---------- Actus page ---------- */
 
 .actus-hero {
