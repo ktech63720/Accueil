@@ -31,4 +31,10 @@ const actus = [
     summary: "C'est ici que je partagerai les actualités informatiques qui me semblent utiles pour mes clients : failles de sécurité importantes, astuces, nouveautés matérielles, etc.",
     url: ""
   },
+     {
+    date: "07/07/2026",
+    title: "Les risques de votre compte Playstation",
+    summary: "Votre compte Playstation pourrait être supprimé si vous êtes inactif pendant 36 mois. Playstation se reserve le droit de clôturer votre compte si vous êtes inactif et de ce fait vous perdez tous vos jeux dématérialisés ainsi que vos DLC alors attention!",
+    url: ""
+  },
 ];
