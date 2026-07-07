@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Actus — Jimmy Informatique</title>
+<meta name="description" content="Actualités informatiques utiles : sécurité, astuces et nouveautés, partagées par Jimmy Informatique.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">JIMMY<span class="accent">_</span>INFO<span class="cursor">▮</span></a>
+    <nav class="nav-links">
+      <a href="index.html#accueil">Accueil</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#apropos">À propos</a>
+      <a href="actus.html">Actus</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+  </div>
+</header>
+
+<section class="actus-hero">
+  <p class="eyebrow">// actus</p>
+  <h1>Ce qui vaut le coup d'être su</h1>
+  <p class="lead">Failles de sécurité, astuces, nouveautés matérielles : je partage ici ce que je trouve d'utile pour mes clients.</p>
+</section>
+
+<section class="actus-list" id="actus-list">
+  <!-- rempli automatiquement depuis data/actus.js -->
+</section>
+
+<footer>
+  <div class="container">
+    &copy; 2026 Jimmy Informatique — Auto-entrepreneur en dépannage informatique
+  </div>
+</footer>
+
+<script src="data/actus.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
